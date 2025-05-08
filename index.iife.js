@@ -13,7 +13,7 @@
 						</div>
 						<span data-timestamp='${a}' class="messageTimeStamp text-xs text-gray-500 leading-none">2 min ago</span>
 					</div>
-				</div>`;(async()=>{const n=document.getElementById("AlcLabsScript").getAttribute("data-theme")||"sky",a=document.getElementById("AlcLabsScript").getAttribute("data-apikey"),o=document.createElement("div");document.body.appendChild(o);const c=o.attachShadow({mode:"open"});let l=c;const g="fixed top-0 pt-20 w-full px-4 z-50 transition-all duration-300 flex justify-center",C="fixed bottom-4 right-4 z-50 transition-all duration-300",h=document.createElement("style"),T="https://cdn.jsdelivr.net/gh/ahroncich7/augmentumResources/styles.css";h.textContent=await fetch(T).then(t=>t.text());const i=document.createElement("div");i.className=g;let r=!0;const B=(t,s)=>`
+				</div>`;(async()=>{const n=document.getElementById("AlcLabsScript").getAttribute("data-theme")||"sky",a=document.getElementById("AlcLabsScript").getAttribute("data-apikey"),o=document.createElement("div");document.body.appendChild(o);const c=o.attachShadow({mode:"open"});let l=c;const g="fixed top-0 pt-20 w-full px-4 z-50 transition-all duration-300 flex justify-center",C="fixed bottom-4 right-4 z-50 transition-all duration-300",h=document.createElement("style"),T="https://cdn.jsdelivr.net/gh/ahroncich7/augmentumResources@v0.0.4/styles.css";h.textContent=await fetch(T).then(t=>t.text());const i=document.createElement("div");i.className=g;let r=!0;const B=(t,s)=>`
      <div class="flex flex-col flex-grow w-full max-w-xl shadow-xl rounded-3xl overflow-hidden">
        <div class="w-full bg-${s}-300/60 backdrop-blur-sm z-10 flex shadow-lg">
          <button id="close-widget" class="text-zinc-600 hover:text-black text-sm ms-auto me-5 py-1 my-1">
