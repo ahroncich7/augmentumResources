@@ -23,6 +23,7 @@
 				</div>
 				<p id="waiter-text" class="text-sm italic text-white my-auto"></p>
   			</div>`,S=(s,e)=>`<div class="flex mt-2 mb-2 w-full text-white justify-center text-center">
+  			</div>`,S=(s,e)=>`<div class="flex mt-2 mb-2 w-full text-white justify-center text-center">
 				<p class="text-2xl">${s}</p>		
 			</div>`,_=()=>` <div id="alert" class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded w-fit absolute top-10 left-1/2 -translate-x-1/2 z-30 hidden">
         		<strong id="title" class="font-bold text-sm">Title</strong>
