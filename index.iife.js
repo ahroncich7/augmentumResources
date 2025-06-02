@@ -67,11 +67,11 @@
         <p id="disclaimer" class="text-slate-200 text-sm pt-2 hidden">La IA puede cometer errores. Comprueba la información importante.</p>
         <a id="alchimiaLabs" href="https://augmentum.alchimialabs.com" target="_blank" class="relative ms-auto hidden pt-2" data-tooltip-set="messageToAlchimia-tooltip">
           <p class="chrome hover:text-white italic text-xs cursor-pointer">powered by <span class="not-italic">AlchimiaLabs</span></p>
-          <button onclick="window.open('https://api.whatsapp.com/send/?phone=+5493548434248&text=Hola%21+Quiero+comunicarme+con+ustedes', '_blank')" data-tooltip="messageToAlchimia-tooltip"
+          <button onclick="window.open('https://api.whatsapp.com/send/?phone=+5493548434248&text=%C2%A1Hola%21+Quiero+comunicarme+con+ustedes%21', '_blank')" data-tooltip="messageToAlchimia-tooltip"
                   class="absolute opacity-0 transition-opacity duration-300 z-50 top-8 right-0 whitespace-normal text-nowrap rounded-lg bg-zinc-700 py-1.5 px-3 font-sans text-[0.75rem] font-normal text-white focus:outline-none">
                   <p class="flex flex-row align-middle gap-2">
                   ¿Querés esto para tu web? Hablemos 
-                  ${this.getWhatsappIcon(18)}
+                  ${this.getWhatsappIcon(20)}
                   </p>
                   <div class="absolute border-solid z-50 border-b-zinc-700 border-b-8 border-x-transparent border-x-8 border-t-0 right-5 -top-2"></div>
           </button>
